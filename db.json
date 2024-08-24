@@ -1,0 +1,214 @@
+{
+  "guests": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "phone": "09186543213",
+      "registrationDate": "2024-08-01"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "phone": "09186543213",
+      "registrationDate": "2024-08-05"
+    },
+    {
+      "id": "3",
+      "name": "Alice Johnson",
+      "email": "alicejohnson@example.com",
+      "phone": "09186543213",
+      "registrationDate": "2024-08-08"
+    },
+    {
+      "id": "4",
+      "name": "Bob Brown",
+      "email": "bobbrown@example.com",
+      "phone": "09186543213",
+      "registrationDate": "2024-08-09"
+    },
+    {
+      "id": "5",
+      "name": "Carol White",
+      "email": "carolwhite@example.com",
+      "phone": "09186543213",
+      "registrationDate": "2024-08-10"
+    },
+    {
+      "id": "6",
+      "name": "David Green",
+      "email": "davidgreen@example.com",
+      "phone": "09186543214",
+      "registrationDate": "2024-08-11"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "1",
+      "number": "101",
+      "type": "Single",
+      "status": "Available"
+    },
+    {
+      "id": "2",
+      "number": "102",
+      "type": "Double",
+      "status": "Occupaid"
+    },
+    {
+      "id": "3",
+      "number": "103",
+      "type": "Double",
+      "status": "Available"
+    },
+    {
+      "id": "4",
+      "number": "104",
+      "type": "Suite",
+      "status": "Maintenance"
+    },
+    {
+      "id": "5",
+      "number": "105",
+      "type": "Single",
+      "status": "Occupaid"
+    },
+    {
+      "id": "6",
+      "number": "106",
+      "type": "Suite",
+      "status": "Available"
+    },
+    {
+      "id": "7",
+      "number": "107",
+      "type": "Single",
+      "status": "Available"
+    },
+    {
+      "id": "8",
+      "number": "108",
+      "type": "Double",
+      "status": "Occupaid"
+    },
+    {
+      "id": "7d11",
+      "number": "109",
+      "type": "Single",
+      "status": "Maintenance"
+    },
+    {
+      "id": "0be6",
+      "number": "110",
+      "type": "Single",
+      "status": "Occupaid"
+    }
+  ],
+  "reservations": [
+    {
+      "id": "2",
+      "guestName": "Jane Smith",
+      "roomNumber": "102",
+      "startDate": "2024-08-17T10:00:00.000Z",
+      "endDate": "2024-08-17T08:00:00.000Z",
+      "status": "Terminated"
+    },
+    {
+      "id": "3",
+      "guestName": "Alice Johnson",
+      "roomNumber": "103",
+      "startDate": "2024-08-17T10:00:00.000Z",
+      "endDate": "2024-08-23T10:00:00.000Z",
+      "status": "Terminated"
+    },
+    {
+      "id": "4",
+      "guestName": "John Doe",
+      "roomNumber": "104",
+      "startDate": "2024-08-08T10:00:00.000Z",
+      "endDate": "2024-08-11T10:00:00.000Z",
+      "status": "Terminated"
+    },
+    {
+      "id": "6",
+      "guestName": "Carol White",
+      "roomNumber": "106",
+      "startDate": "2024-08-08T10:00:00.000Z",
+      "endDate": "2024-08-08T08:00:00.000Z",
+      "status": "Terminated"
+    },
+    {
+      "id": "7",
+      "guestName": "David Green",
+      "roomNumber": "107",
+      "startDate": "2024-08-05T10:00:00.000Z",
+      "endDate": "2024-08-09T10:00:00.000Z",
+      "status": "Terminated"
+    },
+    {
+      "id": "8",
+      "guestName": "Jane Smith",
+      "roomNumber": "108",
+      "startDate": "2024-08-16T10:00:00.000Z",
+      "endDate": "2024-08-16T08:00:00.000Z",
+      "status": "Terminated"
+    },
+    {
+      "id": "a55d",
+      "guestName": "amir mohamad ak",
+      "roomNumber": "107",
+      "startDate": "2024-08-11T10:00:00.000Z",
+      "endDate": "2024-08-14T10:00:00.000Z",
+      "status": "Terminated"
+    },
+    {
+      "id": "9e9c",
+      "guestName": "Jane Smith",
+      "roomNumber": "103",
+      "startDate": "2024-08-23T10:00:00.000Z",
+      "endDate": "2024-08-25T10:00:00.000Z",
+      "status": "Booked"
+    },
+    {
+      "id": "dc13",
+      "guestName": "Carol White",
+      "roomNumber": "103",
+      "startDate": "2024-09-10T10:00:00.000Z",
+      "endDate": "2024-09-12T10:00:00.000Z",
+      "status": "Booked"
+    },
+    {
+      "id": "a4f5",
+      "guestName": "John Doe",
+      "roomNumber": "101",
+      "startDate": "2024-09-19T10:00:00.000Z",
+      "endDate": "2024-09-12T10:00:00.000Z",
+      "status": "Booked"
+    },
+    {
+      "id": "9346",
+      "guestName": "Bob Brown",
+      "roomNumber": "103",
+      "startDate": "2024-08-14T10:00:00.000Z",
+      "endDate": "2024-08-20T10:00:00.000Z",
+      "status": "Terminated"
+    },
+    {
+      "id": "b8df",
+      "guestName": "Alice Johnson",
+      "roomNumber": "101",
+      "startDate": "2024-08-16",
+      "endDate": "2024-08-23",
+      "status": "Terminated"
+    },
+    {
+      "id": "bd8f",
+      "guestName": "Alice Johnson",
+      "roomNumber": "101",
+      "startDate": "2024-08-30",
+      "endDate": "2024-09-03",
+      "status": "Booked"
+    }
+  ]
+}
